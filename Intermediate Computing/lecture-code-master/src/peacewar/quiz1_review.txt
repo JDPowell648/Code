@@ -1,0 +1,91 @@
+Example 1
+=========
+(i) Create a class for a DVR object.  A DVR object is given a serial number
+when it is created, and it can retrieve this serial number when asked.
+
+(ii) A DVR can also be told to record a show, and can return whether or not a
+particular show is on the list of shows to record.
+
+
+public class DVR
+{
+    private String serialNumber;
+    private ArrayList<String> shows = new ArrayList<>( );
+
+    public DVR( String id )
+    {
+        serialNumber = id;
+    }
+
+    // A "normal" method begins with the visibility modifier (always public for
+    // now), then the return type (String here, void if no return), then
+    // the method name, and finally the parameter list.
+    public String getSerialNumber( )
+    {
+        return serialNumber;
+    }
+
+    public void recordShow( String showName )
+    {
+        shows.add( showName );
+    }
+
+    public boolean isRecordingShow( String showName )
+    {
+        for( String show : shows )
+        {
+            if( show.equals( showName ) )
+            {
+                return true;
+            }
+        }
+
+        return false;
+
+        // *or*
+        return shows.contains( showName );
+    }
+}
+
+
+
+
+
+Example 2
+=========
+Create a Java class for a CrimeScene.  A crime scene is given the location name
+and crime type when it is created.  A crime scene can be asked to give the
+location name and the crime type.  The crime type can be changed later as more
+details emerge thanks to the hard work of the police who investigate the crimes,
+or the district attorneys who prosecute the offenders.
+
+// Create a Java class for a crime scene
+public class CrimeScene
+{
+    private String location, crimeType;
+
+    // A crime scene is given the location and type when created
+    public CrimeScene( String loc, String type )
+    {
+        location = loc;
+        crimeType = type;
+    }
+
+    // A crime scene can be asked to give the location name ...
+    public String getLocation( )
+    {
+        return location;
+    }
+
+    // ... and crime type
+    public String getCrimeType( )
+    {
+        return crimeType;
+    }
+
+    // A crime type can be changed later
+    public void changeCrimeType( String newType )
+    {
+        crimeType = newType;
+    }
+}

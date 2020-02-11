@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="303237f9-b998-462a-b884-6762a5e5401b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SvkkY79xoBfvzTouUrDhFbWJYr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dropbox\Dropbox\Programming\Java\bideoboker\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.gameDriver">
+    <configuration name="BonkersDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bideoboker.BonkersDriver" />
+      <module name="bideoboker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bideoboker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PokerTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PokerTable" />
+      <module name="bideoboker" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gameDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bideoboker.gameDriver" />
+      <module name="bideoboker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bideoboker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testDeck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bideoboker.testDeck" />
+      <module name="bideoboker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bideoboker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BonkersDriver" />
+      <item itemvalue="Application.PokerTable" />
+      <item itemvalue="Application.testDeck" />
+      <item itemvalue="Application.gameDriver" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.gameDriver" />
+        <item itemvalue="Application.testDeck" />
+        <item itemvalue="Application.PokerTable" />
+        <item itemvalue="Application.BonkersDriver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="303237f9-b998-462a-b884-6762a5e5401b" name="Default Changelist" comment="" />
+      <created>1572451600276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572451600276</updated>
+      <workItem from="1572451603028" duration="8906000" />
+      <workItem from="1573055533900" duration="28124000" />
+      <workItem from="1573746971055" duration="13718000" />
+      <workItem from="1574351768072" duration="8333000" />
+      <workItem from="1575838306064" duration="2132000" />
+      <workItem from="1575843263355" duration="649000" />
+      <workItem from="1576004483539" duration="88000" />
+      <workItem from="1576008746700" duration="2343000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1575842919105">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575842919105" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1575843284226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575843284226" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1575843116196">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575843116196" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1575843116196">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575843116196" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1575843116196">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575843116196" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1575843116196">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575843116196" />
+    <state x="661" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1575843264263">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575843264263" />
+    <state x="342" y="139" key="new project wizard" timestamp="1575838932252">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="139" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1575838932252" />
+  </component>
+</project>

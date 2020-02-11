@@ -1,0 +1,10 @@
+milk:mix:0
+egg:mix:0
+oil:mix:0
+flour:mix:0
+mix:syrup:0
+mix:pour:0
+heat:pour:0
+syrup:eat:0
+pour:turn:0
+turn:eat:0

@@ -1,0 +1,168 @@
+y = 'y'
+Manpower = 0.0
+Ammo = 0.0
+Rations = 0.0
+Parts = 0.0
+Time = 0.0
+
+while y == 'y':
+    Mission = input("What support mission are you running? ")
+    if(Mission == "1-1"):
+        Manpower = 10
+        Ammo = 30
+        Rations = 15
+        Parts = 0
+        Time = .25
+    elif(Mission == "1-2"):
+        Manpower = 0
+        Ammo = 40
+        Rations = 60
+        Parts = 0
+        Time = .5
+    elif(Mission == "1-3"):
+        Manpower = 30
+        Ammo = 0
+        Rations = 30
+        Parts = 10
+        Time = 1
+    elif(Mission == "1-4"):
+        Manpower = 160
+        Ammo = 160
+        Rations = 0
+        Parts = 0
+        Time = 2
+    elif(Mission == "2-1"):
+        Manpower = 100
+        Ammo = 0
+        Rations = 0
+        Parts = 30
+        Time = (2/3)
+    elif(Mission == "2-2"):
+        Manpower = 60
+        Ammo = 200
+        Rations = 80
+        Parts = 0
+        Time = 1.5
+    elif(Mission == "2-3"):
+        Manpower = 10
+        Ammo = 10
+        Rations = 10
+        Parts = 230
+        Time = 4
+    elif(Mission == "2-4"):
+        Manpower = 0
+        Ammo = 250
+        Rations = 600
+        Parts = 60
+        Time = 6
+    elif(Mission == "3-1"):
+        Manpower = 80
+        Ammo = 0
+        Rations = 75
+        Parts = 0
+        Time = (1/3)
+    elif(Mission == "3-2"):
+        Manpower = 0
+        Ammo = 120
+        Rations = 70
+        Parts = 30
+        Time = .75
+    elif(Mission == "3-3"):
+        Manpower = 0
+        Ammo = 300
+        Rations = 0
+        Parts = 0
+        Time = 1.5
+    elif(Mission == "3-4"):
+        Manpower = 0
+        Ammo = 0
+        Rations = 300
+        Parts = 300
+        Time = 5
+    elif(Mission == "4-1"):
+        Manpower = 0
+        Ammo = 185
+        Rations = 185
+        Parts = 0
+        Time = 1
+    elif(Mission == "4-2"):
+        Manpower = 0
+        Ammo = 0
+        Rations = 0
+        Parts = 210
+        Time = 2
+    elif(Mission == "4-3"):
+        Manpower = 800
+        Ammo = 550
+        Rations = 0
+        Parts = 0
+        Time = 6
+    elif(Mission == "4-4"):
+        Manpower = 400
+        Ammo = 400
+        Rations = 400
+        Parts = 150
+        Time = 8
+    elif(Mission == "5-1"):
+        Manpower = 0
+        Ammo = 0
+        Rations = 100
+        Parts = 45
+        Time = .5
+    elif(Mission == "5-2"):
+        Manpower = 0
+        Ammo = 600
+        Rations = 300
+        Parts = 0
+        Time = 2.5
+    elif(Mission == "5-3"):
+        Manpower = 800
+        Ammo = 400
+        Rations = 400
+        Parts = 0
+        Time = 4
+    elif(Mission == "5-4"):
+        Manpower = 100
+        Ammo = 0
+        Rations = 0
+        Parts = 700
+        Time = 7
+    elif(Mission == "6-1"):
+        Manpower = 300
+        Ammo = 300
+        Rations = 0
+        Parts = 100
+        Time = 2
+    elif(Mission == "6-2"):
+        Manpower = 0
+        Ammo = 200
+        Rations = 550
+        Parts = 100
+        Time = 3
+    elif(Mission == "6-3"):
+        Manpower = 0
+        Ammo = 0
+        Rations = 200
+        Parts = 500
+        Time =5
+    elif(Mission == "6-4"):
+        Manpower = 800
+        Ammo = 800
+        Rations = 800
+        Parts = 0
+        Time = 12
+    else:
+        Manpower = 0
+        Ammo = 0
+        Rations = 0
+        Parts = 0
+        Time = 1
+        print("Please enter a valid mission")
+
+    print()
+    print("The mission", Mission, "Gives:")
+    print(str(round(Manpower/Time,2)), "manpower per hour")
+    print(str(round(Ammo/Time,2)), "ammo per hour")
+    print(str(round(Rations/Time,2)), "rations per hour")
+    print(str(round(Parts/Time,2)), "parts per hour")
+    print()
