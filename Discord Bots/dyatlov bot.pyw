@@ -178,4 +178,4 @@ async def on_ready():
     game = discord.Game("-help")
     await client.change_presence(status=discord.Status.online, activity=game)
 
-client.run("NTkyMTAyODUyMDA5MTMyMDM2.XQ6qVQ.bjEki30uGgCk0U92vnD8uyl-iW4")
+client.run("")
